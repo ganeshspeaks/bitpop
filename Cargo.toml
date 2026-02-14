@@ -1,0 +1,17 @@
+[package]
+name = "bitpop"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+gtk4 = { version = "0.9", features = ["gnome_46"] }
+gdk-pixbuf = "0.20"
+glib = "0.20"
+chrono = "0.4"
+libc = "0.2"
+dirs = "5"
+
+[profile.release]
+opt-level = 3
+lto = true
+strip = true

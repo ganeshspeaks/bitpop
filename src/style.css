@@ -1,0 +1,202 @@
+/* GitHub Dark Dimmed Theme */
+window {
+    background-color: #22272e;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+}
+
+.main-container {
+    background-color: #22272e;
+    border-radius: 12px;
+}
+
+.clock {
+    font-size: 64px;
+    font-weight: 300;
+    color: #adbac7;
+    font-family: "SF Mono", "Monaco", "Inconsolata", "Roboto Mono", monospace;
+    letter-spacing: -2px;
+}
+
+.date {
+    font-size: 16px;
+    font-weight: 400;
+    color: #768390;
+    margin-top: 4px;
+}
+
+.card {
+    background-color: #2d333b;
+    border-radius: 10px;
+    border: 1px solid #444c56;
+}
+
+.battery-text {
+    font-size: 14px;
+    font-weight: 500;
+    color: #adbac7;
+}
+
+.section-label {
+    font-size: 11px;
+    font-weight: 600;
+    color: #768390;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 6px;
+    margin-top: 4px;
+}
+
+.search-entry {
+    background-color: #2d333b;
+    border: 1px solid #444c56;
+    border-radius: 8px;
+    padding: 10px 14px;
+    font-size: 14px;
+    color: #adbac7;
+    caret-color: #539bf5;
+}
+
+.search-entry:focus {
+    border-color: #539bf5;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(83, 155, 245, 0.2);
+}
+
+.search-entry:placeholder {
+    color: #545d68;
+}
+
+.app-scrolled-window {
+    background-color: transparent;
+    border: none;
+}
+
+.app-scrolled-window scrollbar {
+    background-color: transparent;
+}
+
+.app-scrolled-window scrollbar slider {
+    background-color: #444c56;
+    border-radius: 4px;
+}
+
+.app-list {
+    background-color: transparent;
+    border: none;
+}
+
+.app-row {
+    background-color: transparent;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 2px;
+}
+
+.app-row:hover {
+    background-color: #2d333b;
+}
+
+.app-row:selected {
+    background-color: #316dca;
+}
+
+.app-row:selected .app-name,
+.app-row:selected .app-icon {
+    color: #ffffff;
+}
+
+.app-icon {
+    font-size: 18px;
+    color: #768390;
+}
+
+.app-name {
+    font-size: 13px;
+    font-weight: 500;
+    color: #adbac7;
+}
+
+.control-btn {
+    background-color: #2d333b;
+    border-radius: 8px;
+    border: 1px solid #444c56;
+    padding: 0;
+    margin-bottom: 6px;
+}
+
+.control-btn:hover {
+    background-color: #373e47;
+    border-color: #539bf5;
+}
+
+.control-btn:active {
+    background-color: #316dca;
+}
+
+.btn-icon {
+    font-size: 20px;
+    color: #adbac7;
+}
+
+.btn-title {
+    font-size: 14px;
+    font-weight: 500;
+    color: #adbac7;
+}
+
+.btn-subtitle {
+    font-size: 12px;
+    font-weight: 400;
+    color: #768390;
+}
+
+.power-btn {
+    background-color: #2d333b;
+    border-radius: 8px;
+    border: 1px solid #444c56;
+    padding: 0;
+    min-width: 70px;
+}
+
+.power-btn:hover {
+    background-color: #373e47;
+    border-color: #539bf5;
+}
+
+.power-btn:hover.logout {
+    border-color: #539bf5;
+}
+
+.power-btn:hover.suspend {
+    border-color: #c69026;
+}
+
+.power-btn:hover.restart {
+    border-color: #c69026;
+}
+
+.power-btn:hover.shutdown {
+    border-color: #e5534b;
+}
+
+.power-btn:active {
+    background-color: #316dca;
+}
+
+.power-icon {
+    font-size: 20px;
+    color: #adbac7;
+}
+
+.power-label {
+    font-size: 11px;
+    font-weight: 500;
+    color: #768390;
+}
+
+.hint {
+    font-size: 11px;
+    color: #545d68;
+    margin-top: 8px;
+}
