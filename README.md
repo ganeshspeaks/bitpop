@@ -1,20 +1,32 @@
 # BitPop
 
-A sleek, macOS-style quick access menu for Linux. Built with GTK4 and Rust.
+A sleek access menu for Linux. Built with GTK4 and Rust.
 
 ![BitPop Screenshot](bitpop.png)
 
 ## What is BitPop?
 
-BitPop is a modern system menu that pops up with a keyboard shortcut, giving you instant access to:
+BitPop is a keyboard-triggered system control hub designed as an alternative to traditional status bars and bottom/top app launchers.
+Instead of occupying permanent screen space, BitPop appears instantly via a keyboard shortcut and provides a clean, centralized interface for essential system interactions.
+* **Clock & Date**
+  Large, easy-to-read 12-hour time display with AM/PM.
+* **Battery Status**
+  Real-time battery percentage and charging state.
+* **App Launcher**
+  Fast search and launch for installed applications.
+* **Quick Controls**
+  Toggle Wi-Fi and Bluetooth, and view connected networks and devices.
+* **Power Actions**
+  Log out, suspend, restart, or shut down the system.
 
-- **Clock & Date** - Large, easy-to-read 12-hour time format with AM/PM
-- **Battery Status** - Current battery percentage and charging status
-- **App Launcher** - Search and launch applications quickly
-- **Quick Controls** - Toggle WiFi and Bluetooth on/off, see connected networks/devices
-- **Power Actions** - Log out, suspend, restart, or shut down your system
+### Design Philosophy
 
-The menu follows your system's GTK theme and uses proper system icons so everything looks native.
+* No persistent UI clutter
+* Keyboard-first workflow
+* Native GTK theme integration
+* System icon consistency
+
+BitPop provides a minimal, focused system menu that stays out of the way until you need it.
 
 ## Features
 
